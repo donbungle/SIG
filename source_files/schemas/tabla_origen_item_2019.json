@@ -1,0 +1,118 @@
+{
+    "type" : "record",
+    "name" : "tabla_origen_item_2019",
+    "fields" : [ 
+        {
+            "name" : "origen",
+            "type" : ["null","string"]
+        },
+        {
+            "name" : "item",
+            "type" : ["null","string"]
+        },
+          {
+              "name" : "jan19",
+              "type" : ["null","string"]
+          },
+          {
+              "name" : "feb19",
+              "type" : ["null","string"]
+          },
+          {
+              "name" : "mar19",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "apr19",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "may19",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "jun19",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "jul19",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "aug19",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "sep19",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "oct19",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "nov19",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "dec19",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "jan20",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "feb20",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "mar20",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "apr20",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "may20",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "jun20",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "jul20",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "aug20",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "sep20",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "oct20",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "nov20",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "dec20",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "jan21",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "feb21",
+              "type" : ["null","string"]
+          }
+      ]
+  }

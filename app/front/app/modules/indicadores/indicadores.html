@@ -1,0 +1,71 @@
+<div class="md-padding" layout="column" layout-padding="" >
+    
+    <div layout="row" flex>
+        <filtro-panel flex="100"></filtro-panel>
+    </div>
+    <div layout="row">
+        <grafico-linea flex="25"></grafico-linea>
+        <grafico-linea flex="25"></grafico-linea>
+        <grafico-linea flex="25"></grafico-linea>
+        <grafico-linea flex="25"></grafico-linea>
+    </div>
+    <div layout="row">
+        <grafico-columna flex="25"></grafico-columna>
+        <grafico-columna flex="25"></grafico-columna>
+        <grafico-columna flex="25"></grafico-columna>
+        <grafico-columna flex="25"></grafico-columna>
+    </div>
+    <div layout="row">
+        <tabla-panel flex="60" mostrar-item="true"></tabla-panel>
+        <tabla-panel flex="20"></tabla-panel>
+        <tabla-panel flex="20"></tabla-panel>
+    </div>
+    <div layout="row">
+        <tabla-panel mostrar-item="true" flex></tabla-panel>
+        <tabla-panel mostrar-item="true" flex></tabla-panel>
+    </div>
+    
+                 
+    <md-card>
+        <md-card-content layout="row" layout-xs="column" layout-md="column">
+            <div flex layout="column">
+            <h2 class="md-title">Últimos Indicadores</h2>
+            <div style="">
+            <div layout="row" layout-xs="column" layout-align="end none" layout-wrap="" >
+                <div class="last-ind" flex="auto">
+                    <div>
+                        <md-card>
+                            <md-card-content md-colors="{background: 'accent-100-0.3'}" style="padding: 10px;">
+                                <h4 md-colors="{color: 'primary-400'}" style="margin:0" alt="{{item.name}}">
+                                    {{item.key | uppercase}} 
+                                    <md-button 
+                                        style="font-size: 10px;line-height: 20px;min-height: 20px;padding: 0 4px;"
+                                        class="md-link md-raised md-warn" 
+                                        ng-click="vm.getValoresIndicador(item.key)">
+                                        <ng-md-icon icon="trending_up"></ng-md-icon>  
+                                        Ver historia
+                                    </md-button>
+                                </h4>
+                                <div layout="column" flex>
+                                    <span md-colors="{color: 'primary-900'}" style="font-size: 30px;">
+                                        {{item.value | number : 1}} 
+                                        <small md-colors="{color: 'accent-500'}" style="font-size: 10px;">({{item.unit | uppercase}})</small>
+                                    </span>
+                                    <span style="font-size: 10px;">
+                                        <ng-md-icon icon="today"></ng-md-icon> 
+                                        {{item.date | fecha_temp}}
+                                    </span>
+                                </div>
+                            </md-card-content>
+                        </md-card>
+                        
+                        
+                    </div>
+                </div>
+                
+
+
+            </div>
+        </md-card-content>
+    </md-card>
+</div>

@@ -1,0 +1,46 @@
+{
+    "type" : "record",
+    "name" : "panel_integral_base",
+    "fields" : [ 
+          {
+              "name" : "fecha_proceso",
+              "type" : ["null","string"]
+          },
+          {
+              "name" : "periodo",
+              "type" : ["null","string"]
+          },
+          {
+              "name" : "concepto",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "tenencia_tarjeta",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "tipo_tc",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "segmento_gestion",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "valor",
+              "type" : ["null","string"]
+          }, 
+          {
+              "name" : "periodo2",
+              "type" : ["null","string"]
+          }
+      ]
+  }
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 

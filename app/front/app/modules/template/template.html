@@ -1,0 +1,90 @@
+<div class="md-padding" flex layout="column">
+	<div layout="column">
+		<div flex="" ng-repeat="paleta in vm.colores_paletas track by $index" layout="row">
+			<div ng-repeat="color in paleta track by $index" flex>
+				<div flex style="height:20px;background-color:{{color}};">{{color}}</div>
+			</div>
+		</div>
+	</div>
+	<div class="md-padding" flex layout="row">
+		<grafico-linea flex></grafico-linea>
+		<grafico-barra flex></grafico-barra>
+		<grafico-columna flex></grafico-columna>
+	</div>
+
+    <md-card class="text-center">
+        <md-card-content>
+            <h1>Botones</h1>
+            <div layout="row">
+                <div flex="" layout="column">
+                    <md-button class=""  ng-href="/#!/indicadores"><ng-md-icon icon="airline_seat_flat"></ng-md-icon> Ir al módulo</md-button>
+                    <md-button class="md-warn md-hue-1"  ng-href="/#!/indicadores"><ng-md-icon icon="link"></ng-md-icon> Ir al módulo</md-button>
+                    <md-button class="md-accent md-hue-2"  ng-href="/#!/indicadores"><ng-md-icon icon="link"></ng-md-icon> Ir al módulo</md-button>
+                    <md-button class="md-primary md-hue-3"  ng-href="/#!/indicadores"><ng-md-icon icon="link"></ng-md-icon> Ir al módulo</md-button>
+                </div>        <div flex="" layout="column">
+                    <md-button class="md-raised md-warn"  ng-href="/#!/indicadores"><ng-md-icon icon="link"></ng-md-icon> Ir al módulo</md-button>
+                    <md-button class="md-raised md-warn md-hue-1"  ng-href="/#!/indicadores"><ng-md-icon icon="link"></ng-md-icon> Ir al módulo</md-button>
+                    <md-button class="md-raised md-warn md-hue-2"  ng-href="/#!/indicadores"><ng-md-icon icon="link"></ng-md-icon> Ir al módulo</md-button>
+                    <md-button class="md-raised md-warn md-hue-3"  ng-href="/#!/indicadores"><ng-md-icon icon="link"></ng-md-icon> Ir al módulo</md-button>
+                </div>
+                <div flex="" layout="column">
+                    <md-button class="md-raised md-accent"  ng-href="/#!/indicadores"><ng-md-icon icon="link"></ng-md-icon> Ir al módulo</md-button>
+                    <md-button class="md-raised md-accent md-hue-1"  ng-href="/#!/indicadores"><ng-md-icon icon="link"></ng-md-icon> Ir al módulo</md-button>
+                    <md-button class="md-raised md-accent md-hue-2"  ng-href="/#!/indicadores"><ng-md-icon icon="link"></ng-md-icon> Ir al módulo</md-button>
+                    <md-button class="md-raised md-accent md-hue-3"  ng-href="/#!/indicadores"><ng-md-icon icon="link"></ng-md-icon> Ir al módulo</md-button>
+                </div>
+                <div flex="" layout="column">
+                    <md-button class="md-raised md-primary"  ng-href="/#!/indicadores"><ng-md-icon icon="link"></ng-md-icon> Ir al módulo</md-button>
+                    <md-button class="md-raised md-primary md-hue-1"  ng-href="/#!/indicadores"><ng-md-icon icon="link"></ng-md-icon> Ir al módulo</md-button>
+                    <md-button class="md-raised md-primary md-hue-2"  ng-href="/#!/indicadores"><ng-md-icon icon="link"></ng-md-icon> Ir al módulo</md-button>
+                    <md-button class="md-raised md-primary md-hue-3"  ng-href="/#!/indicadores"><ng-md-icon icon="link"></ng-md-icon> Ir al módulo</md-button>
+                </div>
+            </div>
+        </md-card-content>
+    </md-card>
+	<br>
+	<md-card class="text-center">
+        <md-card-content>
+            <h1>Tabs</h1>
+            <div layout="column">
+                <md-content>
+					<md-tabs class="md-accent"  md-center-tabs2>
+						<md-tab label="one">
+							<md-content class="md-padding">
+							<h2 class="md-display-1">Tab One</h2>
+							<p class="md-body-1">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis ante augue.
+								Phasellus volutpat neque ac dui mattis vulputate. Etiam consequat aliquam cursus. In
+								sodales pretium ultrices. Maecenas lectus est, sollicitudin consectetur felis nec,
+								feugiat ultricies mi.
+							</p>
+							</md-content>
+						</md-tab>
+						<md-tab label="two">
+							<md-content class="md-padding">
+							<h2 class="md-display-1">Tab Two</h2>
+							<p class="md-body-1">
+								Morbi viverra, ante vel aliquet tincidunt, leo dolor pharetra quam, at semper massa
+								orci nec magna. Donec posuere nec sapien sed laoreet. Etiam cursus nunc in
+								condimentum facilisis. Etiam in tempor tortor. Vivamus faucibus egestas enim,
+								at convallis diam pulvinar vel. Cras ac orci eget nisi maximus cursus.
+							</p>
+							</md-content>
+						</md-tab>
+						<md-tab label="three">
+							<md-content class="md-padding">
+							<h2 class="md-display-1">Tab Three</h2>
+							<p class="md-body-1">
+								Integer turpis erat, porttitor vitae mi faucibus, laoreet interdum tellus. Curabitur
+								posuere molestie dictum. Morbi eget congue risus, quis rhoncus quam. Suspendisse
+								vitae hendrerit erat, at posuere mi. Cras eu fermentum nunc. Sed id ante eu orci
+								commodo volutpat non ac est.
+							</p>
+							</md-content>
+						</md-tab>
+					</md-tabs>
+				</md-content>
+            </div>
+        </md-card-content>
+    </md-card>
+</div>

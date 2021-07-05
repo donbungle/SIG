@@ -1,0 +1,32 @@
+{
+  "generator-angm": {
+    "directives": [
+      {
+        "name": "tablapanel"
+      },
+      {
+        "name": "filtropanel"
+      },
+      {
+        "name": "graficolinea"
+      },
+      {
+        "name": "graficobarra"
+      },
+      {
+        "name": "graficocolumna"
+      }
+    ],
+    "modules": [
+      {
+        "name": "template"
+      }
+    ],
+    "menu": [
+      {
+        "link": "template",
+        "title": "Template"
+      }
+    ]
+  }
+}

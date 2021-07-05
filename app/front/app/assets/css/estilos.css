@@ -1,0 +1,42 @@
+table{
+    color: rgb(106, 27, 154);
+}
+
+table thead tr th{
+    padding: 10px 0px;
+    font-size: 12px;
+}
+
+table tbody tr td{
+    padding: 10px 5px;
+    text-align: right;
+    font-size: 11px;
+    color:#222;
+}
+
+table thead tr th:first-child,
+table tbody tr td:first-child{
+    padding: 10px 10px;
+    text-align: left;
+}
+
+md-card md-card-content{
+    padding: 0px !important;
+}
+
+table tbody tr.total td{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(106, 27, 154);
+    background-color: rgba(214, 220, 229, 1);
+}
+
+table tbody tr td.item{
+    font-size: 12px;
+    color: rgb(106, 27, 154);
+}
+
+
+md-input-container{
+    margin: 10px 20px -15px 0px!important;
+}
